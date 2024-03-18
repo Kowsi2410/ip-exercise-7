@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Timezone</title>
+</head>
+<body>
+    <h2>Select Your Timezone</h2>
+    <form action="http://localhost:8080/WebApplication19/TimeZoneServlet" method="post">
+        <label for="timezone">Choose your timezone:</label>
+        <select name="timezone" id="timezone">
+            <option value="America/New_York">America/New York</option>
+            <option value="America/Los_Angeles">America/Los Angeles</option>
+            <option value="Europe/London">Europe/London</option>
+            <option value="Europe/Paris">Europe/Paris</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
